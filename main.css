@@ -1,0 +1,123 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    color: #fff;
+    line-height: 0;
+}
+
+/*******************
+*** SPLASH PAGE  ***
+*******************/
+
+.opening-section {
+    background: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg) no-repeat top right;
+    box-shadow:inset 0 0 0 2000px rgba(38, 38, 38, 0.4);
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: solid #fff 2px;
+    margin: 0 60px;
+    padding: 50px 0 20px 0;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header li {
+    display: inline;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.opening {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px 0 350px 0;
+}
+
+h1 {
+    font-size: 90px;
+    padding: 70px 40px;
+    border-bottom: solid #fff 2px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.opening p {
+    font-size: 40px;
+    margin: 30px;
+}
+
+/*******************
+*** MAIN CONTENT ***
+*******************/
+
+.splash-image {
+    width: 800px;
+    background-size: cover;
+}
+
+.bread {
+    background-image: url(human-holding-a-bread-745988.jpg)
+}
+
+.pineapple {
+    background-image: url(green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg)
+}
+
+.pasta {
+    background-image: url(cooked-pasta-on-brown-wooden-bowl-803963.jpg)
+}
+
+.content-section {
+    line-height: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 500px
+}
+
+.black {
+    background-color: #000;
+}
+
+.grey {
+    background-color: #121212;
+}
+
+.light-grey {
+    background-color: #212121;
+}
+
+.paragraph {
+    padding: 150px;
+}
+
+.paragraph h2 {
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 25px;
+}
+
+.paragraph p {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
